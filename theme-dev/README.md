@@ -148,6 +148,7 @@ These are provided by the Plugin (or Xposed module). They theme many things at o
 | String          | Purpose                 |
 | ---------------- |:-----------------------:|
 | brand up to 900 | Old Brand Colors (this string isn't used anymore, so it's useless) |
+| brand_500_alpha_20 | Channel/Ping Background |
 | brand_new up to 900 | New Brand Colors |
 | brand_new | Accent Color |
 | brand_new_360 | Cursor Color, Nitro Text Color in the settings, turned on switch, etc... |
@@ -164,6 +165,7 @@ These are provided by the Plugin (or Xposed module). They theme many things at o
 
 | String          | Purpose                 |
 | ---------------- |:-----------------------:|
+
 | primary_dark_100 | Chat Scrollbar |
 | primary_dark_300 | Attachments and Emotes icon, DMs button, Discord Navagation Button Colors, Top Bar Icons, Members List Icons (Only Search Icon, and Settings icon. The others you can be found [here](#drawable-strings)) + Text Underneath, Role Names in Members List, Server Name Color in the emotes list, and Icons for Default Emotes. |
 | primary_dark_360 | only in plugin: changes the read channel names and the icon next to them, also changes peoples names in the DM list [example](https://cdn.discordapp.com/attachments/590317150959566849/884594678832455770/Screenshot_20210907-022053.jpg) |
@@ -189,6 +191,7 @@ These are provided by the Plugin (or Xposed module). They theme many things at o
 | primary_660 | Code block border line colour |
 | primary_700 | Spoilers, Embeds, Top Bar, DMs Button, Background for Pings, and server streaming icons |
 | primary_700_alpha_60 | In dark mode "Appearance" changes message preview border colour and embed border colour , share sheet selected channel background. [example for what it changes] (https://i.imgur.com/mLNuJ77.jpeg) |
+| black_alpha_10 | Image Border, Revealed Spoiler Background |
 | black_alpha_80 | Server name text shadow when there is a server banner |
 | white | Server title and white text in the color picker for plugins |
 | white_500 | Unread channels, Server title (overrides white if added after it), White icons in various buttons, text in toast messages, channel name in channel description |
